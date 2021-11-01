@@ -1,6 +1,6 @@
 // config/database.js
 module.exports = {
 
-    'url' : 'mongodb+srv://TRCoder:dbpassword@messagefromdownunder.xv6xa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
-    'dbName': 'JavaHouse'
+    'url' : 'mongodb+srv://TRCoder:dbpassword@messagefromdownunder.xv6xa.mongodb.net/barista?retryWrites=true&w=majority', 
+    'dbName': 'CivetHouse'
 };
