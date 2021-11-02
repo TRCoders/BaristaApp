@@ -24,27 +24,27 @@
           </div>
       </nav>
     </header>
-    <div class="m-auto px-64 py-4">
+    <div class="m-auto px-64 py-4 bg-info">
 
       <!-- NAME -->
-      <div class="mb-2 ">
-        <label for="name" class="text-4xl text-gray-100 font-semibold">Name: </label>
+      <div class="mb-2">
+        <label for="name" class="text-4xl text-gray-100 font-semibold px-5">Name: </label>
         <input type="text" name="name" id="custName" class="bg-gray-200 h-10 rounded text-2xl" placeholder="Enter customer's name"></input>
       </div>
 
       <!-- SIZE -->
 
-      <div class="d-flex justify-content-around">
-        <button id="short" class="size px-12 py-2 rounded-md font-semibold bg-gray-600 hover:bg-gray-500 active:bg-gray-700 transition ease-in duration-150 cursor-pointer">
+      <div class="d-flex justify-content-around border border-primary rounded px-5 bg-primary">
+        <button id="short" class="size px-12 py-2 rounded-md font-semibold bg-gray-600 hover:bg-gray-500 active:bg-gray-700 transition ease-in duration-150 cursor-pointer btn btn-info">
           Short
         </button>
-        <button id="tall" class="size px-12 py-2 rounded-md font-semibold bg-gray-600 hover:bg-gray-500 active:bg-gray-700 transition ease-in duration-150 cursor-pointer">
+        <button id="tall" class="size px-12 py-2 rounded-md font-semibold bg-gray-600 hover:bg-gray-500 active:bg-gray-700 transition ease-in duration-150 cursor-pointer btn btn-info">
           Tall
         </button>
-        <button id="grande" class="size px-12 py-2 rounded-md font-semibold bg-gray-600 hover:bg-gray-500 active:bg-gray-700 transition ease-in duration-150 cursor-pointer">
+        <button id="grande" class="size px-12 py-2 rounded-md font-semibold bg-gray-600 hover:bg-gray-500 active:bg-gray-700 transition ease-in duration-150 cursor-pointer btn btn-info">
           Grande
         </button>
-        <button id="venti" class="size px-12 py-2 rounded-md font-semibold bg-gray-600 hover:bg-gray-500 active:bg-gray-700 transition ease-in duration-150 cursor-pointer">
+        <button id="venti" class="size px-12 py-2 rounded-md font-semibold bg-gray-600 hover:bg-gray-500 active:bg-gray-700 transition ease-in duration-150 cursor-pointer btn btn-info">
           Venti
         </button>
       </div>
@@ -55,23 +55,23 @@
 
         <!-- SHOW SUBMISSION INFO -->
 
-        <div class="bg-gray-300 w-1/4 h-auto rounded relative text-2xl">
-          <p>Name: <span>Jason</span></p>
-          <p>Size: <span>Venti</span></p>
-          <p>Flavor: <span>Caramel Coffee Frappucino</span></p>
-          <p>Dairy: <span>Soy Milk</span></p>
+        <div class="container bg-gray-300 w-1/4 h-auto rounded relative text-2xl px-5 bg-secondary py-5">
+          <p class="bg-info rounded">Name: <span>Jason</span></p>
+          <p class="bg-info rounded">Size: <span>Venti</span></p>
+          <p class="bg-info rounded">Flavor: <span>Caramel Coffee Frappucino</span></p>
+          <p class="bg-info rounded">Dairy: <span>Soy Milk</span></p>
 
           <div class="absolute bottom-0 left-4">
-            <button type="submit" id="submit" class="bg-yellow-800 hover:bg-yellow-900 active:bg-yellow-600 text-gray-50 text-2xl font-semibold shadow-md px-3 py-2 rounded-md my-4">Submit Order</button>
+            <button type="submit" id="submit" class="bg-yellow-800 hover:bg-yellow-900 active:bg-yellow-600 text-gray-50 text-2xl font-semibold shadow-md px-3 py-2 rounded-md my-4 bg-info rounded">Submit Order</button>
           </div>
         </div>
         
         <!-- FLAVOR SELECTION -->
-        <div class="flex space-x-6">
+        <div class="d-flex justify-content-around space-x-6 container bg-secondary">
 
           <!-- ESPRESSOS -->
 
-          <div class="d-flex flex-column w-50">
+          <div class="d-flex flex-column w-50 container btn-lg btn-group-vertical">
             <h2 class="text-center text-gray-100 text-2xl font-semibold my-2">
               Espresso
             </h2>
@@ -94,7 +94,7 @@
           
           <!-- CLASSIC BUBBLE TEA -->
 
-          <div class="flex flex-col flex-wrap w-52">
+          <div class="d-flex align-items-center flex-col flex-wrap container btn-lg btn-group-vertical">
             <h2 class="text-center text-gray-100 text-2xl font-semibold my-2">
               Milk Tea
             </h2>
@@ -117,8 +117,8 @@
 
           <!-- Specials -->
 
-          <div class="flex flex-col flex-wrap w-52">
-            <h2 class="text-center text-gray-100 text-2xl font-semibold my-2">
+          <div class="flex flex-col flex-wrap w-52 container btn-lg btn-group-vertical">
+            <h2 class="text-center text-gray-100 text-2xl font-semibold my-2 align-items-center">
               Specials
             </h2>
             <button class="coffee coffee-btn bg-yellow-800 hover:bg-yellow-700 active:bg-yellow-900">
